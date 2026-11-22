@@ -1,0 +1,108 @@
+[2026-11-22T04:18:31Z] === ENRICH ITERATION 1 START | repo=pytorch/audio sha=34c52a67 ===
+[2026-11-22T04:18:31Z] [iter=1] PHASE START: enrich repo=pytorch/audio sha=34c52a67 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/34c52a67-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78.nq.gz
+[2026-11-22T04:18:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T04:18:55Z] [iter=1] AST store loaded triples=2386014 load_secs=22 mem_mb=859 MB
+[2026-11-22T04:18:55Z] [iter=1] Step 2: Finding LSP targets mem_mb=859 MB
+[2026-11-22T04:19:00Z] [iter=1] LSP targets found call_sites=16892 imports=1595 extends=384 implements=0 secs=5
+[2026-11-22T04:19:05Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=859 MB
+[2026-11-22T04:19:20Z] [iter=1] Position index built positions=161189 nodes_with_types=207931 secs=16 mem_mb=859 MB
+[2026-11-22T04:19:20Z] [iter=1] Step 3: Starting LSP resolution mem_mb=859 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T04:19:20Z] [iter=1] Resolving target type target_type=call_site count=16892
+[2026-11-22T04:19:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=src/torchaudio/models/rnnt_decoder.py
+[2026-11-22T04:20:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=1 resolved=108 errors=0 current=test/torchaudio_unittest/models/decoder/cuda_ctc_decoder_test.py
+[2026-11-22T04:21:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=3 resolved=246 errors=0 current=test/torchaudio_unittest/functional/functional_cpu_test.py
+[2026-11-22T04:22:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=6 resolved=368 errors=0 current=test/torchaudio_unittest/functional/functional_impl.py
+[2026-11-22T04:23:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=7 resolved=742 errors=0 current=test/torchaudio_unittest/functional/batch_consistency_test.py
+[2026-11-22T04:24:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=8 resolved=918 errors=0 current=src/torchaudio/models/_hdemucs.py
+[2026-11-22T04:25:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=9 resolved=1164 errors=0 current=test/torchaudio_unittest/test_load_save_torchcodec.py
+[2026-11-22T04:26:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=11 resolved=1325 errors=0 current=examples/hubert/utils/feature_utils.py
+[2026-11-22T04:27:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=13 resolved=1867 errors=0 current=examples/self_supervised_learning/data_modules/_utils.py
+[2026-11-22T04:29:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=15 resolved=2135 errors=0 current=examples/self_supervised_learning/losses/_wav2vec2_loss.py
+[2026-11-22T04:29:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.4 files_done=17 resolved=2309 errors=0 current=src/torchaudio/datasets/voxceleb1.py
+[2026-11-22T04:31:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=21 resolved=2538 errors=0 current=src/torchaudio/models/wav2vec2/components.py
+[2026-11-22T04:32:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.2 files_done=22 resolved=2769 errors=0 current=examples/source_separation/utils/dist_utils.py
+[2026-11-22T04:33:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=26 resolved=2946 errors=0 current=examples/hubert/utils/kmeans.py
+[2026-11-22T04:34:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.2 files_done=28 resolved=3243 errors=0 current=examples/tutorials/forced_alignment_tutorial.py
+[2026-11-22T04:35:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=30 resolved=3378 errors=0 current=src/torchaudio/datasets/musdb_hq.py
+[2026-11-22T04:36:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.9 files_done=35 resolved=3584 errors=0 current=examples/avsr/models/resnet.py
+[2026-11-22T04:36:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=36 resolved=3640 errors=0 current=examples/pipeline_wavernn/main.py
+[2026-11-22T04:37:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.4 files_done=38 resolved=3800 errors=0 current=test/torchaudio_unittest/common_utils/wav_utils.py
+[2026-11-22T04:38:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=43 resolved=3995 errors=0 current=src/torchaudio/models/tacotron2.py
+[2026-11-22T04:39:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=44 resolved=4190 errors=0 current=test/torchaudio_unittest/datasets/cmuarctic_test.py
+[2026-11-22T04:40:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.4 files_done=48 resolved=4432 errors=0 current=src/torchaudio/models/emformer.py
+[2026-11-22T04:41:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=49 resolved=4653 errors=0 current=examples/hubert/dataset/hubert_dataset.py
+[2026-11-22T04:42:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.1 files_done=52 resolved=4867 errors=0 current=test/torchaudio_unittest/models/wav2vec2/huggingface_intergration_test.py
+[2026-11-22T04:52:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.1 files_done=53 resolved=4867 errors=0 current=examples/asr/librispeech_ctc_decoder/inference.py
+[2026-11-22T04:54:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.1 files_done=54 resolved=4867 errors=0 current=examples/avsr/models/resnet1d.py
+[2026-11-22T04:57:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.1 files_done=55 resolved=4867 errors=0 current=src/torchaudio/pipelines/_squim_pipeline.py
+[2026-11-22T04:58:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.8 files_done=57 resolved=4918 errors=0 current=test/torchaudio_unittest/models/wav2vec2/model_test.py
+[2026-11-22T04:59:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.4 files_done=58 resolved=5081 errors=0 current=test/torchaudio_unittest/functional/torchscript_consistency_impl.py
+[2026-11-22T05:01:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.0 files_done=59 resolved=5283 errors=0 current=src/torchaudio/models/wavernn.py
+[2026-11-22T05:02:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.2 files_done=61 resolved=5473 errors=0 current=examples/tutorials/tacotron2_pipeline_tutorial.py
+[2026-11-22T05:03:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=63 resolved=5570 errors=0 current=examples/pipeline_wav2letter/main.py
+[2026-11-22T05:03:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.3 files_done=64 resolved=5732 errors=0 current=test/torchaudio_unittest/datasets/fluentcommands_test.py
+[2026-11-22T05:04:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.9 files_done=67 resolved=5836 errors=0 current=examples/tutorials/audio_data_augmentation_tutorial.py
+[2026-11-22T05:04:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.4 files_done=69 resolved=5900 errors=0 current=test/torchaudio_unittest/functional/sox_compatibility_test.py
+[2026-11-22T05:06:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.5 files_done=70 resolved=5968 errors=0 current=examples/asr/emformer_rnnt/mustc/lightning.py
+[2026-11-22T05:06:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.2 files_done=71 resolved=6037 errors=0 current=examples/source_separation/lightning_train.py
+[2026-11-22T05:07:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.7 files_done=74 resolved=6200 errors=0 current=src/torchaudio/models/wav2vec2/wavlm_attention.py
+[2026-11-22T05:08:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.5 files_done=76 resolved=6599 errors=0 current=examples/asr/emformer_rnnt/tedlium3/lightning.py
+[2026-11-22T05:08:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.1 files_done=77 resolved=6677 errors=0 current=test/torchaudio_unittest/models/emformer/emformer_test_impl.py
+[2026-11-22T05:09:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.0 files_done=80 resolved=6788 errors=0 current=examples/asr/emformer_rnnt/global_stats.py
+[2026-11-22T05:10:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.1 files_done=82 resolved=6877 errors=0 current=examples/avsr/data_prep/detectors/mediapipe/video_process.py
+[2026-11-22T05:11:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.3 files_done=87 resolved=7065 errors=0 current=test/torchaudio_unittest/datasets/ljspeech_test.py
+[2026-11-22T05:12:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.9 files_done=91 resolved=7210 errors=0 current=docs/source/custom_directives.py
+[2026-11-22T05:12:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.4 files_done=95 resolved=7368 errors=0 current=examples/dnn_beamformer/model.py
+[2026-11-22T05:13:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.1 files_done=102 resolved=7515 errors=0 current=test/torchaudio_unittest/example/hubert/test_crop_audio_label.py
+[2026-11-22T05:14:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.6 files_done=106 resolved=7581 errors=0 current=src/torchaudio/models/decoder/_ctc_decoder.py
+[2026-11-22T05:14:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.2 files_done=108 resolved=7683 errors=0 current=examples/source_separation/conv_tasnet/train.py
+[2026-11-22T05:15:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.7 files_done=111 resolved=7820 errors=0 current=examples/asr/librispeech_conformer_rnnt/train.py
+[2026-11-22T05:16:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=57.6 files_done=115 resolved=7963 errors=0 current=src/torchaudio/datasets/vctk.py
+[2026-11-22T05:16:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.3 files_done=118 resolved=8140 errors=0 current=examples/tutorials/mvdr_tutorial.py
+[2026-11-22T05:17:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.8 files_done=121 resolved=8216 errors=0 current=examples/asr/emformer_rnnt/librispeech/lightning.py
+[2026-11-22T05:17:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.4 files_done=122 resolved=8291 errors=0 current=src/torchaudio/utils/download.py
+[2026-11-22T05:18:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.0 files_done=128 resolved=8454 errors=0 current=src/torchaudio/datasets/librispeech.py
+[2026-11-22T05:19:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.0 files_done=130 resolved=8579 errors=0 current=examples/tutorials/squim_tutorial.py
+[2026-11-22T05:20:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.6 files_done=134 resolved=8688 errors=0 current=test/torchaudio_unittest/models/decoder/ctc_decoder_utils.py
+[2026-11-22T05:20:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.2 files_done=137 resolved=8786 errors=0 current=test/torchaudio_unittest/models/tacotron2/model_test_impl.py
+[2026-11-22T05:21:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.8 files_done=139 resolved=8885 errors=0 current=test/torchaudio_unittest/transforms/batch_consistency_test.py
+[2026-11-22T05:22:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=63.9 files_done=140 resolved=9073 errors=0 current=examples/dnn_beamformer/eval.py
+[2026-11-22T05:23:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.5 files_done=143 resolved=9150 errors=0 current=test/torchaudio_unittest/datasets/musdb_hq_test.py
+[2026-11-22T05:23:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.1 files_done=146 resolved=9231 errors=0 current=examples/asr/librispeech_conformer_rnnt/eval.py
+[2026-11-22T05:24:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.8 files_done=152 resolved=9382 errors=0 current=test/torchaudio_unittest/models/conformer/conformer_test_impl.py
+[2026-11-22T05:24:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.4 files_done=156 resolved=9505 errors=0 current=examples/asr/librispeech_conformer_rnnt_biasing/train_spm.py
+[2026-11-22T05:25:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.0 files_done=162 resolved=9669 errors=0 current=src/torchaudio/datasets/cmudict.py
+[2026-11-22T05:26:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.6 files_done=164 resolved=9760 errors=0 current=src/torchaudio/pipelines/_wav2vec2/utils.py
+[2026-11-22T05:27:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.9 files_done=168 resolved=9860 errors=0 current=test/torchaudio_unittest/example/emformer_rnnt/test_tedlium3_lightning.py
+[2026-11-22T05:28:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.5 files_done=170 resolved=9930 errors=0 current=examples/pipeline_wavernn/wavernn_inference_wrapper.py
+[2026-11-22T05:28:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.1 files_done=174 resolved=10020 errors=0 current=src/torchaudio/datasets/dr_vctk.py
+[2026-11-22T05:29:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.6 files_done=178 resolved=10136 errors=0 current=examples/source_separation/utils/dataset/utils.py
+[2026-11-22T05:31:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.8 files_done=182 resolved=10257 errors=0 current=src/torchaudio/models/wav2vec2/utils/import_huggingface.py
+[2026-11-22T05:32:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.0 files_done=183 resolved=10272 errors=0 current=test/torchaudio_unittest/functional/functional_cuda_test.py
+[2026-11-22T05:33:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.6 files_done=187 resolved=10380 errors=0 current=examples/pipeline_tacotron2/utils.py
+[2026-11-22T05:33:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.1 files_done=195 resolved=10563 errors=0 current=test/torchaudio_unittest/models/tacotron2/model_test_gpu_test.py
+[2026-11-22T05:34:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.6 files_done=200 resolved=10664 errors=0 current=test/torchaudio_unittest/assets/wav2vec2/fairseq/generate_hubert_model_config.py
+[2026-11-22T05:34:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.2 files_done=204 resolved=10762 errors=0 current=test/torchaudio_unittest/functional/kaldi_compatibility_cuda_test.py
+[2026-11-22T05:35:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.7 files_done=206 resolved=10896 errors=0 current=test/torchaudio_unittest/compliance/kaldi/legacy_test.py
+[2026-11-22T05:36:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=77.5 files_done=211 resolved=11018 errors=0 current=test/torchaudio_unittest/functional/autograd_cuda_test.py
+[2026-11-22T05:37:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=78.7 files_done=219 resolved=11188 errors=0 current=examples/hubert/preprocess.py
+[2026-11-22T05:37:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.3 files_done=222 resolved=11285 errors=0 current=src/torchaudio/datasets/libritts.py
+[2026-11-22T05:38:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=80.0 files_done=226 resolved=11393 errors=0 current=examples/asr/librispeech_conformer_rnnt_biasing/eval.py
+[2026-11-22T05:39:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=80.7 files_done=229 resolved=11538 errors=0 current=test/torchaudio_unittest/transforms/sox_compatibility_test.py
+[2026-11-22T05:39:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.4 files_done=232 resolved=11654 errors=0 current=examples/pipeline_tacotron2/datasets.py
+[2026-11-22T05:40:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.2 files_done=237 resolved=11796 errors=0 current=test/conftest.py
+[2026-11-22T05:41:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.9 files_done=252 resolved=12008 errors=0 current=test/smoke_test/smoke_test.py
+[2026-11-22T05:42:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=83.5 files_done=264 resolved=12121 errors=0 current=test/torchaudio_unittest/functional/kaldi_compatibility_test_impl.py
+[2026-11-22T05:42:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.0 files_done=273 resolved=12220 errors=0 current=src/torchaudio/datasets/fluentcommands.py
+[2026-11-22T05:43:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.6 files_done=297 resolved=12362 errors=0 current=test/torchaudio_unittest/transforms/torchscript_consistency_cuda_test.py
+[2026-11-22T05:44:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.7 files_done=329 resolved=12445 errors=0 current=src/libtorchaudio/rnnt/cpu/cpu_kernels.h
+[2026-11-22T05:45:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=87.2 files_done=330 resolved=12539 errors=0 current=src/libtorchaudio/_torchaudio.cpp
+[2026-11-22T05:46:08Z] [iter=1] Target type resolved target_type=call_site resolved=12579 errors=0 secs=5208 mem_mb=859 MB
+[2026-11-22T05:46:08Z] [iter=1] Resolving target type target_type=import_statement count=1595
+[2026-11-22T05:46:13Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=87.7 files_done=53 resolved=290 errors=0 current=src/torchaudio/datasets/musdb_hq.py
+[2026-11-22T05:46:23Z] [iter=1] Target type resolved target_type=import_statement resolved=1217 errors=0 secs=15 mem_mb=859 MB
+[2026-11-22T05:46:23Z] [iter=1] Resolving target type target_type=extends_clause count=384
+[2026-11-22T05:46:28Z] [iter=1] Target type resolved target_type=extends_clause resolved=301 errors=0 secs=6 mem_mb=859 MB
+[2026-11-22T06:39:40Z] [iter=1] Step 5: Writing final enrichment file triples=192579
+[2026-11-22T06:39:42Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78.nq.gz size_kb=4946
+[2026-11-22T06:39:42Z] [iter=1] PHASE END: enrich elapsed_s=8472 elapsed_min=141.2 total_triples=192579

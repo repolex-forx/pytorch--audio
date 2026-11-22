@@ -1799,6 +1799,127 @@
       ],
       "ast": [
         "aggregate/ast/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.15.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+          "githubTag": "v2.15.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "soundfile",
+          "ecosystem": "PYPI",
+          "version": "0.14.0",
+          "githubOrg": "bastibe",
+          "githubRepo": "python-soundfile",
+          "githubCommit": "3162358d0315be769b97f3e4c12545fe18a676bc",
+          "githubTag": "0.14.0",
+          "githubUrl": "https://github.com/bastibe/python-soundfile",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/random/mtrand.pyi"
+        },
+        {
+          "packageName": "scipy",
+          "ecosystem": "PYPI",
+          "version": "1.18.1",
+          "githubOrg": "scipy",
+          "githubRepo": "scipy",
+          "githubCommit": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+          "githubTag": "v1.18.1",
+          "githubUrl": "https://github.com/scipy/scipy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/scipy/signal/_signaltools.py"
+        },
+        {
+          "packageName": "joblib",
+          "ecosystem": "PYPI",
+          "version": "1.6.0",
+          "githubOrg": "joblib",
+          "githubRepo": "joblib",
+          "githubCommit": "cd9a6b05fc4f2b1c8202eb62c4e863484f8cc099",
+          "githubTag": "1.6.0",
+          "githubUrl": "https://github.com/joblib/joblib",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/joblib/numpy_pickle.py"
+        },
+        {
+          "packageName": "sentencepiece",
+          "ecosystem": "PYPI",
+          "version": "0.2.3",
+          "githubOrg": "google",
+          "githubRepo": "sentencepiece",
+          "githubCommit": "eafd99cf3b8bfa5101c2c5f42aab2cc39947938d",
+          "githubTag": "v0.2.3",
+          "githubUrl": "https://github.com/google/sentencepiece",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/sentencepiece/__init__.pyi"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/tqdm/std.py"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/requests/models.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "transformers",
+          "ecosystem": "PYPI",
+          "version": "5.24.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "transformers",
+          "githubCommit": "eeee11099135592f1d03c2871fbd3d8132e5a4d7",
+          "githubTag": "v5.24.0",
+          "githubUrl": "https://github.com/huggingface/transformers",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/transformers/__init__.py"
+        }
       ]
     }
   ],
