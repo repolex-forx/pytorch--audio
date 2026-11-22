@@ -3,6 +3,11 @@
   "repo": "audio",
   "versions": [
     {
+      "commit": "34c52a67e8941bbd8e6adaca0eb0b9eabec11d78",
+      "tag": "v2.11.0",
+      "parsed_at": "2026-11-22T06:42:12.111252+00:00"
+    },
+    {
       "commit": "9b19155e6fce04a83704eadc85d3dfe99e520c0c",
       "tag": "",
       "parsed_at": "2026-11-06T07:11:39.875059+00:00"
