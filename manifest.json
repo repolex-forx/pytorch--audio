@@ -1920,7 +1920,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/transformers/__init__.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78/chunk-001.nq.gz",
+      "dep": "dep/34c52a67e8941bbd8e6adaca0eb0b9eabec11d78.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
